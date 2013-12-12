@@ -1,0 +1,22 @@
+body {
+		background: url("https://si0.twimg.com/profile_background_images/234239569/big_chill4.jpg");
+		background-size: cover;
+		color: white;
+		font-family: "Calibri";
+		font-size:15px;
+		padding: 10px;
+		text-align: center;
+	}
+	h1 {
+		font-size:50px;
+	}
+	img{
+		border: 10px solid white;
+	}
+	a{
+		color: white;
+	}
+	p{
+		text-align: center;
+		background-color:rgba(0,0,0,0.3);
+	}
