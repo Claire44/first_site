@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 
 <head>
-	<link href='bootstrap.css' rel='stylesheet'>
-	<link href='clairesstylesheet.css' rel='stylesheet'>
-	<title>Claire's first site</title>
+	<link href='mystylesheet.css' rel='stylesheet'>
+	<link rel="stylesheet" href="assets/font-awesome-4.0.3/css/font-awesome.min.css">
+	<link href='assets/bootstrap/css/bootstrap.css' rel='stylesheet'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="assets/jquery-2.1.0.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.js"></script>
+	<title>Claire Roberts | About</title>
 </head>
 
 <script>
@@ -17,17 +21,44 @@
 </script>
 
 <body>
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="top-menu">
+  <div class="container" id="navbar">
+    <nav class="navbar navbar-right" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navdata">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navdata">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">About</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="faves.html">Trove</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  	</nav>
+  </div>
+ </nav>
+
 <div class = 'container'> 
-<h1> Claire Roberts </h1>
+	</br></br></br>
+	<h1> Claire Roberts </h1>
 
-<img src="http://profile.ak.fbcdn.net/hprofile-ak-ash3/c0.353.551.551/s160x160/581546_10153193558000317_781543717_n.jpg">
-<br/>
-<br/>
-<p> I am a UCL graduate with a French and Italian degree. I spent my year abroad in <a href="http://www.telegraph.co.uk/incoming/article83802.ece/ALTERNATES/w460/Comedie-Montpellier.jpg" target="_blank">Montpellier</a> and <a href="http://s3.amazonaws.com/foodspotting-ec2/reviews/1447499/thumb_600.jpg?1331545686?1385938884" target="_blank">Bologna</a>.</p>
+	<img src="http://profile.ak.fbcdn.net/hprofile-ak-ash3/c0.353.551.551/s160x160/581546_10153193558000317_781543717_n.jpg">
+	<br/>
+	<br/>
+	<h3>UCL graduate with a Modern Languages degree, living and working in London, UK. I spent my year abroad in <a href="http://www.telegraph.co.uk/incoming/article83802.ece/ALTERNATES/w460/Comedie-Montpellier.jpg" target="_blank">Montpellier</a> and <a href="http://s3.amazonaws.com/foodspotting-ec2/reviews/1447499/thumb_600.jpg?1331545686?1385938884" target="_blank">Bologna</a>.</h3>
 
-<p>I like to <a href="http://twitter.com/_claireroberts" target="_blank">Tweet</a>, uncover new <a href="http://hypem.com/claire44" target="_blank">music</a>, and work off the things on my bucket list.</p>
+<p>I like to uncover new <a href="http://hypem.com/claire44" target="_blank">music</a>, <a href="http://twitter.com/_claireroberts" target="_blank">Tweet</a> and work off the things on my bucket list.</p>
 
-<p>Recently I've been learning to code, trying my hand at Javascript for the <a href="http://www.ucl.ac.uk/maps/ucl-audio-tour" target="_blank">UCL Audio Tour app</a>. </p>
+<p>I'm currently learning to code, and building a career in the tech sector. <a href="work.html">Here</a> are some things I've made.
 </p>
 
 <script type="text/javascript">var submitted=false;</script>
@@ -35,33 +66,25 @@
 style="display:none;" onload="if(submitted)
 {window.location='index.html';}"></iframe>
 
-
-
-<form class="form-inline" action="https://docs.google.com/forms/d/1g3kkIuQe_i4EB7QpxSB9uaOAx1YI9-rke1jXVJ6VwSg/formResponse" method="post"
-target="hidden_iframe" onsubmit="submitted=true;">
-
-	<div class="form-group">
-
-	<label>Name:</label>
-		<input type="text" name="entry.1771984288" value="" class="form-control" id="entry_1771984288" dir="auto" aria-label="Name  " title="">
-		<br/>
-	
-	<label>Favourite animal:</label>
-
-		<input type="text" name="entry.2066680677" value="" class="form-control" id="entry_2066680677" dir="auto" aria-label="Favourite animal type here " title="">
-		<br/>
-
-	<label>Leave a message:</label>
-		<input type="text" name="entry.1948177726" value="" class="form-control" id="entry_1948177726" dir="auto" aria-label="any message?  " title="">
-		<br/>
-		<br/>
-	<button class='btn btn-success' input type="submit" name="submit" value="Submit" id="ss-submit">Submit</button>
-
-	</div>
-
-</form>
-
 </div>
+
+
+<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation" id="footer">
+	<div class="col-md-6">
+	</div>
+  <div class="col-md-6">
+    <nav class="navbar navbar-right" role="navigation" id="footerdata">
+      <ul class="nav navbar-nav">
+      	<li><a href="http://www.facebook.com/claireroberts1" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+        <li><a href="mailto:claire.roberts@hotmail.com" target="_blank"><i class="fa fa-envelope-o fa-2x"></i></a></li>
+      	<li><a href="http://www.twitter.com/_claireroberts" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+      	<li><a href="http://uk.linkedin.com/pub/claire-roberts/29/721/a7a/" target="_blank"><i class="fa fa-linkedin fa-2x" ></i></a></li>
+      </ul>
+     </nav>
+  </div><!-- /.container-fluid -->
+</nav>
+
 </body>
 
 <!-- Type me to change things online: git push origin master:gh-pages>
+
