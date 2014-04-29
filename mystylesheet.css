@@ -6,6 +6,11 @@
 		text-align: center;
 	}
 
+	.navbar-default .navbar-nav > .active{
+    color: red;
+   background-color: red;
+	}
+
 	h1 {
 		font-size:50px;
 	}
@@ -35,6 +40,29 @@
 
 	#top-menu
 	{
-	background-color:#98D0FF;	
+	background-color:#98D0FF;
+	height:50px;	
 	}
+
+	#footer
+	{
+	height:40px;
+	}
+
+	.navbar-nav .active a{
+			background-color: red;
+		}
+		
+
+	#navdata a:hover
+	{
+		background-color: #30FFC7;
+	}
+
+	#navdata a:focus
+	{
+		background-color: blue;
+	}
+
+
 
